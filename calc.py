@@ -8,7 +8,9 @@ def subtract(x, y):
 
 # Function to divide two numbers
 def divide(x, y):
-        return x / y
+    if(y==0):
+        return "Divide by Zero"
+    return x / y
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
